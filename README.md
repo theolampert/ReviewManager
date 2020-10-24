@@ -3,7 +3,7 @@
 Simple mechanism to ask for an app store review after a number of actions.
 
 ```swift
-ReviewManager.requestReviewIfAppropriate()
+ReviewManager.requestReview()
 
-ReviewManager.requestReviewIfAppropriate(minimumReviewWorthyActionCount: 5) // defaults to 4
+ReviewManager.requestReview(atActionCount: 5) // defaults to 5
 ```
